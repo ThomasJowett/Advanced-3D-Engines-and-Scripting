@@ -1,0 +1,984 @@
+﻿Log file open, 11/02/17 13:00:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: J005627b
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2136339752) SRandInit(2136339752).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.562374
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Epic/UE4/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.02-13.00.47:643][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.02-13.00.47:643][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.02-13.00.47:680][  0]LogInit: Computer: C115-3
+[2017.11.02-13.00.47:680][  0]LogInit: User: j005627b
+[2017.11.02-13.00.47:680][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.02-13.00.47:680][  0]LogInit: High frequency timer resolution =3.410079 MHz
+[2017.11.02-13.00.47:680][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.02-13.00.47:680][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.02-13.00.47:680][  0]LogMemory: Process Physical Memory: 278.40 MB used, 278.40 MB peak
+[2017.11.02-13.00.47:680][  0]LogMemory: Process Virtual Memory: 282.12 MB used, 282.12 MB peak
+[2017.11.02-13.00.47:680][  0]LogMemory: Physical Memory: 4453.18 MB used,  11847.06 MB free, 16300.24 MB total
+[2017.11.02-13.00.47:680][  0]LogMemory: Virtual Memory: 676.77 MB used,  11847.06 MB free, 134217728.00 MB total
+[2017.11.02-13.00.48:646][  0]LogInit: Using OS detected language (en-US).
+[2017.11.02-13.00.48:646][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.02-13.00.48:666][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.02-13.00.49:833][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.02-13.00.50:057][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.02-13.00.50:057][  0]LogD3D11RHI:       4058/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.02-13.00.50:059][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.02-13.00.50:059][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.02-13.00.50:059][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.02-13.00.50:067][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.02-13.00.50:067][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.02-13.00.50:067][  0]LogWindows: EnumDisplayDevices:
+[2017.11.02-13.00.50:067][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.02-13.00.50:068][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.11.02-13.00.50:068][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.02-13.00.50:068][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.02-13.00.50:069][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.02-13.00.50:069][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.02-13.00.50:069][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.11.02-13.00.50:069][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.11.02-13.00.50:069][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.02-13.00.50:106][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.02-13.00.50:131][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.02-13.00.50:184][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Student Temporary Folder/J005627b/Intermediate/Shaders/WorkingDirectory/16368/).
+[2017.11.02-13.00.50:185][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J005627b/AppData/Local/Temp/UnrealShaderWorkingDir/9F4C85DA4C6AD845D7B0A99383C22FF2/'.
+[2017.11.02-13.00.50:185][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.02-13.00.52:277][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.02-13.00.52:402][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.02-13.00.52:526][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.02-13.00.52:658][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.02-13.00.52:798][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.02-13.00.52:944][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.02-13.00.53:076][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.02-13.00.53:206][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.02-13.00.53:354][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.02-13.00.53:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.02-13.00.53:597][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.02-13.00.53:718][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.02-13.00.53:838][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.02-13.00.53:960][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.02-13.00.54:090][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.02-13.00.54:352][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.02-13.00.54:352][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.02-13.00.54:466][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.02-13.00.54:757][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.02-13.00.54:845][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.02-13.00.54:981][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.02-13.00.55:116][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.02-13.00.55:253][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.02-13.00.55:391][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.02-13.00.55:391][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.02-13.00.57:656][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.02-13.00.57:656][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2017.11.02-13.00.57:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Student Temporary Folder/J005627b/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.02-13.00.57:656][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.02-13.00.57:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Student Temporary Folder/J005627b/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.02-13.00.57:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.02-13.00.57:676][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.02-13.00.57:689][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J005627b/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.02-13.00.57:720][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.02-13.00.57:721][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.02-13.00.57:728][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.02-13.00.57:728][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.02-13.01.03:066][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.11.02-13.01.03:355][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.02-13.01.04:626][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.02-13.01.04:942][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.02-13.01.04:942][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.02-13.01.04:942][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.02-13.01.04:942][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.02-13.01.04:942][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.02-13.01.04:963][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.02-13.01.05:833][  0]LogNetVersion: J005627b , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 778622900)
+[2017.11.02-13.01.06:252][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.040354 seconds
+[2017.11.02-13.01.06:257][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.02-13.01.06:258][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.02-13.01.06:258][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.02-13.01.06:499][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.02-13.01.12:575][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.02-13.01.12:740][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.02-13.01.14:543][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.02-13.01.15:620][  0]SourceControl: Source control is disabled
+[2017.11.02-13.01.15:621][  0]SourceControl: Source control is disabled
+[2017.11.02-13.01.15:852][  0]SourceControl: Source control is disabled
+[2017.11.02-13.01.15:985][  0]SourceControl: Source control is disabled
+[2017.11.02-13.01.17:732][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.02-13.01.18:418][  0]LogOcInput: OculusInput pre-init called
+[2017.11.02-13.01.19:060][  0]LogEngine: Initializing Engine...
+[2017.11.02-13.01.19:063][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.02-13.01.19:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.02-13.01.19:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.02-13.01.20:029][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.02-13.01.20:083][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-13.01.20:112][  0]LogInit: FAudioDevice initialized.
+[2017.11.02-13.01.20:195][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/J005627b/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.02-13.01.20:213][  0]LogInit: Texture streaming: Enabled
+[2017.11.02-13.01.20:744][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.02-13.01.21:603][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.02-13.01.21:648][  0]LogInit: Transaction tracking system initialized
+[2017.11.02-13.01.22:855][  0]BlueprintLog: New page: Editor Load
+[2017.11.02-13.01.26:104][  0]LocalizationService: Localization service is disabled
+[2017.11.02-13.01.28:461][  0]LogConsoleResponse: Display: 
+[2017.11.02-13.01.28:730][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.02-13.01.28:730][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.02-13.01.28:730][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.02-13.01.29:226][  0]LogFileCache: Scanning file cache for directory 'C:/Student Temporary Folder/J005627b/Content/' took 0.02s
+[2017.11.02-13.01.32:533][  0]SourceControl: Source control is disabled
+[2017.11.02-13.01.32:533][  0]Cmd: MAP LOAD FILE="../../../../../../Student Temporary Folder/J005627b/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.02-13.01.32:533][  0]LightingResults: New page: Lighting Build
+[2017.11.02-13.01.32:678][  0]MapCheck: New page: Map Check
+[2017.11.02-13.01.32:678][  0]LightingResults: New page: Lighting Build
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: FlashHider_MergeMap (AutoDXT, 256X256)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: FlashHider_Albedo (AutoDXT, 256X256)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: Tex_0013_1 (AutoDXT, 1024X1024)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: TurretBase_Normal (BC5, 1024X1024)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: TurretBase_MergeMap (AutoDXT, 1024X1024)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: MiniGun_Albedo (AutoDXT, 1024X1024)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: TurretBase_Albedo (AutoDXT, 1024X1024)
+[2017.11.02-13.01.33:832][  0]LogTexture: Display: Building textures: ACOG001MergeMap (AutoDXT, 1024X1024)
+[2017.11.02-13.01.33:832][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_CC.AO_CC
+[2017.11.02-13.01.33:843][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Idle.Idle
+[2017.11.02-13.01.34:280][  0]LogTexture: Display: Building textures: MiniGun_MergeMap (AutoDXT, 1024X1024)
+[2017.11.02-13.01.34:280][  0]LogTexture: Display: Building textures: HealthPickip_MergeMap (AutoDXT, 1024X1024)
+[2017.11.02-13.01.34:280][  0]LogTexture: Display: Building textures: HealthPickip_Albedo (AutoDXT, 1024X1024)
+[2017.11.02-13.01.34:280][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_CD.AO_CD
+[2017.11.02-13.01.34:359][  0]LogTexture: Display: Building textures: RocketLancher_MergeMap (AutoDXT, 1024X1024)
+[2017.11.02-13.01.34:380][  0]LogTexture: Display: Building textures: RocketLancher_Albedo (AutoDXT, 1024X1024)
+[2017.11.02-13.01.34:380][  0]LogStaticMesh: Building static mesh GrenadeAmmoBox...
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.02-13.01.34:812][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.02-13.01.34:812][  0]LogStaticMesh: Built static mesh [0.43s] /Game/Student/Assets/StaticMeshes/GrenadeAmmoBox.GrenadeAmmoBox
+[2017.11.02-13.01.34:820][  0]LogStaticMesh: Building static mesh Health_Pickup...
+[2017.11.02-13.01.34:928][  0]LogStaticMesh: Built static mesh [0.11s] /Game/Student/Assets/StaticMeshes/Health_Pickup.Health_Pickup
+[2017.11.02-13.01.34:933][  0]LogStaticMesh: Building static mesh Turret_MiniGun_Barrel...
+[2017.11.02-13.01.34:975][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.11.02-13.01.34:975][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Student/Assets/StaticMeshes/Turret_MiniGun_Barrel.Turret_MiniGun_Barrel
+[2017.11.02-13.01.34:977][  0]LogStaticMesh: Building static mesh Turret_RailGun...
+[2017.11.02-13.01.35:083][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.02-13.01.35:083][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.11.02-13.01.35:083][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.11.02-13.01.35:083][  0]LogStaticMesh: Built static mesh [0.11s] /Game/Student/Assets/StaticMeshes/Turret_RailGun.Turret_RailGun
+[2017.11.02-13.01.35:086][  0]LogStaticMesh: Building static mesh Turret_MiniGun_Body...
+[2017.11.02-13.01.35:113][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Student/Assets/StaticMeshes/Turret_MiniGun_Body.Turret_MiniGun_Body
+[2017.11.02-13.01.35:115][  0]LogStaticMesh: Building static mesh Turret_Base...
+[2017.11.02-13.01.35:306][  0]LogStaticMesh: Built static mesh [0.19s] /Game/Student/Assets/StaticMeshes/Turret_Base.Turret_Base
+[2017.11.02-13.01.35:308][  0]LogStaticMesh: Building static mesh Turret_Holder...
+[2017.11.02-13.01.35:328][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Student/Assets/StaticMeshes/Turret_Holder.Turret_Holder
+[2017.11.02-13.01.35:330][  0]LogStaticMesh: Building static mesh Turret_RocketLauncher...
+[2017.11.02-13.01.35:401][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Student/Assets/StaticMeshes/Turret_RocketLauncher.Turret_RocketLauncher
+[2017.11.02-13.01.35:404][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2017.11.02-13.01.35:410][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Idle_ModifyBones.Idle_ModifyBones
+[2017.11.02-13.01.35:744][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2017.11.02-13.01.35:745][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Fire_Rifle_Hip.Fire_Rifle_Hip
+[2017.11.02-13.01.35:746][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2017.11.02-13.01.35:749][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_RU.AO_RU
+[2017.11.02-13.01.35:752][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Run_Bwd.Run_Bwd
+[2017.11.02-13.01.35:773][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2017.11.02-13.01.35:774][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Walk_Right.Walk_Right
+[2017.11.02-13.01.35:806][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Walk_Left.Walk_Left
+[2017.11.02-13.01.35:839][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Walk_Fwd.Walk_Fwd
+[2017.11.02-13.01.35:872][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Walk_Bwd.Walk_Bwd
+[2017.11.02-13.01.35:909][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Run_Right.Run_Right
+[2017.11.02-13.01.35:933][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Run_Left.Run_Left
+[2017.11.02-13.01.35:954][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/Run_Fwd.Run_Fwd
+[2017.11.02-13.01.36:032][  0]LogMaterial: Missing cached shader map for material -BaseMaterial, compiling. 
+[2017.11.02-13.01.36:126][  0]LogStaticMesh: Building static mesh Grenade...
+[2017.11.02-13.01.36:186][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Student/Assets/StaticMeshes/Grenade.Grenade
+[2017.11.02-13.01.36:199][  0]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.11.02-13.01.36:403][  0]LogMaterial: Missing cached shader map for material BlinkingLight, compiling. 
+[2017.11.02-13.01.36:443][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave GunShot...
+[2017.11.02-13.01.36:558][  0]LogMaterial: Missing cached shader map for material M_StaticMesh_1-3, compiling. 
+[2017.11.02-13.01.36:583][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Grenade_Launcher...
+[2017.11.02-13.01.36:659][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_RD.AO_RD
+[2017.11.02-13.01.36:665][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_RC.AO_RC
+[2017.11.02-13.01.36:672][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_RBU.AO_RBU
+[2017.11.02-13.01.36:677][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_RBD.AO_RBD
+[2017.11.02-13.01.36:682][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_RBC.AO_RBC
+[2017.11.02-13.01.36:688][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_LU.AO_LU
+[2017.11.02-13.01.36:694][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_LD.AO_LD
+[2017.11.02-13.01.36:699][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_LC.AO_LC
+[2017.11.02-13.01.36:704][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_LBU.AO_LBU
+[2017.11.02-13.01.36:710][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_LBD.AO_LBD
+[2017.11.02-13.01.36:715][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_LBC.AO_LBC
+[2017.11.02-13.01.36:721][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/AO_CU.AO_CU
+[2017.11.02-13.01.36:731][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-13.01.36:795][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.02-13.01.36:840][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.02-13.01.37:031][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.494ms to complete.
+[2017.11.02-13.01.37:032][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.499
+[2017.11.02-13.01.37:333][  0]LogCollectionManager: Loaded 0 collections in 0.002294 seconds
+[2017.11.02-13.01.37:592][  0]LogFileCache: Scanning file cache for directory 'C:/Student Temporary Folder/J005627b/Saved/Collections/' took 0.01s
+[2017.11.02-13.01.37:592][  0]LogFileCache: Scanning file cache for directory 'C:/Student Temporary Folder/J005627b/Content/Developers/j005627b/Collections/' took 0.01s
+[2017.11.02-13.01.37:592][  0]LogFileCache: Scanning file cache for directory 'C:/Student Temporary Folder/J005627b/Content/Collections/' took 0.01s
+[2017.11.02-13.01.37:592][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.02-13.01.37:607][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2386 classes and 500 folders.
+[2017.11.02-13.01.37:953][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.11.02-13.01.38:126][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.02-13.01.38:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.11.02-13.01.38:387][  0]LogSlate: Took 0.001264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.02-13.01.38:390][  0]LogSlate: Took 0.001344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.02-13.01.38:399][  0]LogSlate: Took 0.001218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.02-13.01.38:568][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.02-13.01.39:097][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.11.02-13.01.39:098][  0]LogLoad: (Engine Initialization) Total time: 57.47 seconds
+[2017.11.02-13.01.39:098][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.02-13.01.39:098][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.02-13.01.39:143][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.02-13.01.39:222][  0]LogSlate: Took 0.001308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-13.01.39:295][  2]LogAssetRegistry: Asset discovery search completed in 36.2504 seconds
+[2017.11.02-13.01.39:299][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.02-13.01.39:299][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
+[2017.11.02-13.01.40:165][ 68]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-13.02.34:633][695]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-13.02.34:683][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.02.34:683][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-13.02.34:689][695]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 13:02:34)
+[2017.11.02-13.02.34:690][695]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-13.02.34:713][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023198s)
+[2017.11.02-13.02.34:714][695]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-13.02.34:714][695]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2017.11.02-13.02.34:714][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024669s)
+[2017.11.02-13.02.34:737][695]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-13.02.34:752][695]LogInit: FAudioDevice initialized.
+[2017.11.02-13.02.34:823][695]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-13.02.34:839][695]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.02.34:841][695]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-13.02.34
+[2017.11.02-13.02.34:850][695]LogWorld: Bringing up level for play took: 0.015161
+[2017.11.02-13.02.35:014][695]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.11.02-13.02.35:043][695]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.744
+[2017.11.02-13.02.35:044][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.02.35:092][695]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.11.02-13.02.37:002][906]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.02.37:045][906]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.02.41:840][198]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-13.02.41:855][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.02.41:855][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-13.02.41:855][198]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 13:02:41)
+[2017.11.02-13.02.41:855][198]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-13.02.41:878][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022736s)
+[2017.11.02-13.02.41:879][198]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-13.02.41:879][198]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.11.02-13.02.41:879][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023967s)
+[2017.11.02-13.02.41:897][198]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-13.02.41:909][198]LogInit: FAudioDevice initialized.
+[2017.11.02-13.02.41:953][198]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-13.02.41:955][198]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.02.41:956][198]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-13.02.41
+[2017.11.02-13.02.41:957][198]LogWorld: Bringing up level for play took: 0.003910
+[2017.11.02-13.02.41:964][198]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.336
+[2017.11.02-13.02.41:964][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.02.49:146][ 30]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.02.59:448][264]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.03.21:344][888]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.03.25:315][362]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.03.25:490][383]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.03.25:674][405]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.03.26:107][457]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.03.26:466][500]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.03.26:635][520]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.04.12:829][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.04.12:875][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.19.09:170][757]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-13.19.09:655][757]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.11.02-13.19.10:389][757]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.02-13.19.10:502][757]LogSlate: Took 0.001513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.02-13.19.10:598][758]LogSlate: Took 0.001665 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.02-13.19.17:943][396]LogRenderer: Reallocating scene render targets to support 1292x900 Format 10 NumSamples 1 (Frame:1).
+[2017.11.02-13.20.40:918][541]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.029
+[2017.11.02-13.20.40:920][541]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Student/Blueprints/MyCharacter] ([1] browsable assets)...
+[2017.11.02-13.20.40:931][541]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Student/Blueprints/MyCharacter.MyCharacter]
+[2017.11.02-13.20.40:931][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/MyCharacter]
+[2017.11.02-13.20.41:027][541]LogSavePackage: Save=77.33ms
+[2017.11.02-13.20.41:028][541]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyCharacter_Auto189A4812B48846F585F9EAC9122799473.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyCharacter_Auto1.uasset'
+[2017.11.02-13.20.41:029][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyCharacter_Auto1.uasset
+[2017.11.02-13.20.41:029][541]LogFileHelpers: Auto-saving content packages took 0.111
+[2017.11.02-13.28.32:217][523]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-13.28.32:236][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.28.32:236][523]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.02-13.28.32:253][523]LogPlayLevel: [PlayLevel] Compiling PlayerAnimationBlueprint before play...
+[2017.11.02-13.28.32:293][523]LogPlayLevel: [PlayLevel]   Compiling ExplodingProjectile as a dependent...
+[2017.11.02-13.28.32:304][523]LogPlayLevel: [PlayLevel]   Compiling Ammo as a dependent...
+[2017.11.02-13.28.32:309][523]LogPlayLevel: [PlayLevel]   Compiling AssaultRifle as a dependent...
+[2017.11.02-13.28.32:312][523]LogPlayLevel: [PlayLevel]   Compiling GrenadeLauncher as a dependent...
+[2017.11.02-13.28.32:317][523]LogPlayLevel: [PlayLevel]   Compiling HealthBar as a dependent...
+[2017.11.02-13.28.32:345][523]LogPlayLevel: [PlayLevel]   Compiling MyCharacter as a dependent...
+[2017.11.02-13.28.32:368][523]LogPlayLevel: [PlayLevel]   Compiling MyGameMode as a dependent...
+[2017.11.02-13.28.32:384][523]LogPlayLevel: [PlayLevel]   Compiling MyPlayerController as a dependent...
+[2017.11.02-13.28.32:937][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/MyCharacter" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyCharacter.uasset" SILENT=true
+[2017.11.02-13.28.33:103][523]LogSavePackage: Save=116.00ms
+[2017.11.02-13.28.33:103][523]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyCharacter53CBE86D44D1568D14F3439858B93EC5.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyCharacter.uasset'
+[2017.11.02-13.28.33:107][523]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyCharacter.uasset
+[2017.11.02-13.28.33:144][523]LogPlayLevel: PlayLevel: Blueprint regeneration took 908 ms (9 blueprints)
+[2017.11.02-13.28.33:145][523]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 13:28:33)
+[2017.11.02-13.28.33:145][523]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-13.28.33:167][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022299s)
+[2017.11.02-13.28.33:168][523]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-13.28.33:168][523]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2017.11.02-13.28.33:168][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023540s)
+[2017.11.02-13.28.33:190][523]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-13.28.33:201][523]LogInit: FAudioDevice initialized.
+[2017.11.02-13.28.33:244][523]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-13.28.33:248][523]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.28.33:251][523]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-13.28.33
+[2017.11.02-13.28.33:253][523]LogWorld: Bringing up level for play took: 0.008335
+[2017.11.02-13.28.33:265][523]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.108
+[2017.11.02-13.28.33:265][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.28.38:195][ 76]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.28.40:312][325]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.41:715][493]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.42:622][600]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.44:276][796]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.48:431][291]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.48:758][330]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.48:942][352]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.49:109][372]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.49:301][395]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.49:744][448]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.49:938][471]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.50:114][492]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.50:281][512]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.55:495][127]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.28.59:729][619]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.28.59:933][643]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.00:110][664]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.00:261][682]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.00:436][703]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.00:620][725]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.01:147][788]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.01:306][807]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.29.01:489][829]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.29.01:656][849]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.29.21:141][187]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.22:094][301]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.22:561][357]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.23:267][441]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.24:477][586]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.24:661][608]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.24:819][627]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.24:978][646]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.25:562][716]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.25:737][737]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.26:179][790]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.26:322][807]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.29.26:505][829]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.22:934][988]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.32.27:957][590]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.28:949][709]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.29:475][772]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.30:026][838]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.47:975][990]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.49:359][156]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.51:976][470]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.52:160][492]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.52:335][513]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.52:494][532]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.53:336][633]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.53:495][652]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.53:670][673]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.53:837][693]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.53:930][704]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.54:071][721]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.54:256][743]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.32.54:456][767]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.32.54:622][787]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.32.54:823][811]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-13.34.54:773][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.34.54:822][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.34.57:166][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0996
+[2017.11.02-13.34.57:166][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:08D5
+[2017.11.02-13.34.57:166][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:05EA
+[2017.11.02-13.34.57:167][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0630
+[2017.11.02-13.34.57:167][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0557
+[2017.11.02-13.34.57:167][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:059D
+[2017.11.02-13.34.57:167][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0514
+[2017.11.02-13.34.57:167][421]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:04E2
+[2017.11.02-13.34.57:463][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0996
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:08D5
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:05EA
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0630
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0557
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:059D
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0514
+[2017.11.02-13.34.57:464][422]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:04E2
+[2017.11.02-13.34.57:508][423]LogScript: Warning: Accessed None trying to read property PlayerCharacter
+	MyPlayerController_C /Engine/Transient.World_6:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Student/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0996
+[2017.11.02-13.35.55:974][ 10]BlueprintLog: New page: Compile MyPlayerController
+[2017.11.02-13.35.56:685][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/MyPlayerController" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.11.02-13.35.56:853][ 10]LogSavePackage: Save=145.54ms
+[2017.11.02-13.35.56:854][ 10]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerController5D516D24405872BF70708889D68A3604.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset'
+[2017.11.02-13.35.56:857][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset
+[2017.11.02-13.35.57:856][ 59]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-13.35.57:878][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.35.57:878][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-13.35.57:878][ 59]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 13:35:57)
+[2017.11.02-13.35.57:879][ 59]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-13.35.57:904][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025611s)
+[2017.11.02-13.35.57:905][ 59]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-13.35.57:906][ 59]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2017.11.02-13.35.57:906][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027374s)
+[2017.11.02-13.35.57:935][ 59]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-13.35.57:947][ 59]LogInit: FAudioDevice initialized.
+[2017.11.02-13.35.58:016][ 59]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-13.35.58:021][ 59]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.35.58:024][ 59]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-13.35.58
+[2017.11.02-13.35.58:026][ 59]LogWorld: Bringing up level for play took: 0.008569
+[2017.11.02-13.35.58:045][ 59]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.119
+[2017.11.02-13.35.58:046][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.36.06:764][949]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.36.08:261][113]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.36.10:480][356]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.36.13:472][684]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.13:795][719]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.13:954][736]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.14:113][753]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.14:283][771]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.14:466][790]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.14:702][815]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.14:901][836]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.15:298][878]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.15:365][885]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.36.15:469][896]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.36.15:666][917]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.36.15:825][934]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.36.16:013][954]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.36.17:639][130]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.17:806][148]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.17:964][165]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.18:147][185]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.36.19:148][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.36.19:197][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.36.56:741][713]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-13.36.56:761][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.36.56:761][713]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.02-13.36.56:809][713]LogPlayLevel: [PlayLevel] Compiling WeaponsInterface before play...
+[2017.11.02-13.36.56:814][713]LogPlayLevel: [PlayLevel]   Compiling BasePlayerWeapon as a dependent...
+[2017.11.02-13.36.56:826][713]LogPlayLevel: [PlayLevel]   Compiling Ammo as a dependent...
+[2017.11.02-13.36.56:830][713]LogPlayLevel: [PlayLevel]   Compiling AssaultRifle as a dependent...
+[2017.11.02-13.36.56:835][713]LogPlayLevel: [PlayLevel]   Compiling GrenadeLauncher as a dependent...
+[2017.11.02-13.36.56:852][713]LogPlayLevel: [PlayLevel]   Compiling MyCharacter as a dependent...
+[2017.11.02-13.36.56:875][713]LogPlayLevel: [PlayLevel]   Compiling MyPlayerController as a dependent...
+[2017.11.02-13.36.57:490][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/MyPlayerController" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.11.02-13.36.57:674][713]LogSavePackage: Save=149.00ms
+[2017.11.02-13.36.57:674][713]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerController0656E915469DED6274A68FAC412C0338.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset'
+[2017.11.02-13.36.57:677][713]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset
+[2017.11.02-13.36.57:726][713]LogPlayLevel: PlayLevel: Blueprint regeneration took 964 ms (7 blueprints)
+[2017.11.02-13.36.57:726][713]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 13:36:57)
+[2017.11.02-13.36.57:726][713]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-13.36.57:747][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020981s)
+[2017.11.02-13.36.57:748][713]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-13.36.57:748][713]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2017.11.02-13.36.57:748][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022319s)
+[2017.11.02-13.36.57:777][713]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-13.36.57:786][713]LogInit: FAudioDevice initialized.
+[2017.11.02-13.36.57:838][713]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-13.36.57:842][713]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.36.57:844][713]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-13.36.57
+[2017.11.02-13.36.57:846][713]LogWorld: Bringing up level for play took: 0.007141
+[2017.11.02-13.36.57:854][713]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.689
+[2017.11.02-13.36.57:855][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.37.02:802][161]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.37.04:451][333]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.37.09:422][855]LogBlueprintUserMessages: [GrenadeLauncher_147] PlayerWeapon no ammo
+[2017.11.02-13.37.14:707][414]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.14:900][434]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.15:101][455]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-13.37.15:159][461]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.17:891][754]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.18:069][773]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.18:249][792]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.18:427][811]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.18:569][826]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.24:217][430]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.24:355][444]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.24:552][465]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.24:721][483]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-13.37.27:802][815]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.37.27:981][834]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.37.28:157][853]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.37.28:329][871]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-13.37.29:767][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.37.29:814][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-13.38.36:351][578]LogSavePackage: Save=148.17ms
+[2017.11.02-13.38.36:351][578]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/ThirdPersonExampleMap_Auto2758653EE477629548300DBA29DB2BCBF.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.11.02-13.38.36:355][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.11.02-13.38.36:357][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.233
+[2017.11.02-13.38.36:357][578]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2017.11.02-13.48.51:399][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.040
+[2017.11.02-13.48.51:401][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/MyPlayerController] ([1] browsable assets)...
+[2017.11.02-13.48.51:401][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/MyPlayerController]
+[2017.11.02-13.48.51:581][944]LogSavePackage: Save=145.83ms
+[2017.11.02-13.48.51:581][944]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerController_Auto3BFE3C2D74977167B7D68D583047AA9DA.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyPlayerController_Auto3.uasset'
+[2017.11.02-13.48.51:583][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyPlayerController_Auto3.uasset
+[2017.11.02-13.48.51:583][944]LogFileHelpers: Auto-saving content packages took 0.183
+[2017.11.02-13.56.16:626][863]LogEditorViewport: Clicking on Actor (LMB): AssaultRifle_C (AssaultRifle)
+[2017.11.02-13.58.51:772][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2017.11.02-13.58.51:774][235]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/MyPlayerController] ([1] browsable assets)...
+[2017.11.02-13.58.51:774][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/MyPlayerController]
+[2017.11.02-13.58.51:935][235]LogSavePackage: Save=142.25ms
+[2017.11.02-13.58.51:935][235]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerController_Auto414651C0B47E25BBD1FC1218A44D595FE.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyPlayerController_Auto4.uasset'
+[2017.11.02-13.58.51:937][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyPlayerController_Auto4.uasset
+[2017.11.02-13.58.51:937][235]LogFileHelpers: Auto-saving content packages took 0.163
+[2017.11.02-14.00.09:960][522]BlueprintLog: New page: Compile Turret_MiniGun
+[2017.11.02-14.00.10:640][522]LogSavePackage: Save=50.18ms
+[2017.11.02-14.00.10:640][522]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_MiniGun63E4C6254D09DB21C3DE78ABE8D31675.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_MiniGun.uasset'
+[2017.11.02-14.00.10:644][522]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_MiniGun.uasset
+[2017.11.02-14.08.52:109][ 25]LogSavePackage: Save=147.49ms
+[2017.11.02-14.08.52:109][ 25]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/ThirdPersonExampleMap_Auto5167811C1415A3E34444AC4AC1C02F065.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.11.02-14.08.52:113][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.11.02-14.08.52:117][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.238
+[2017.11.02-14.08.52:117][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2017.11.02-14.12.36:679][908]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-14.12.36:709][908]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.12.36:709][908]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.02-14.12.36:760][908]LogPlayLevel: [PlayLevel] Compiling WeaponsInterface before play...
+[2017.11.02-14.12.36:768][908]LogPlayLevel: [PlayLevel]   Compiling BasePlayerWeapon as a dependent...
+[2017.11.02-14.12.36:781][908]LogPlayLevel: [PlayLevel]   Compiling Ammo as a dependent...
+[2017.11.02-14.12.36:785][908]LogPlayLevel: [PlayLevel]   Compiling AssaultRifle as a dependent...
+[2017.11.02-14.12.36:789][908]LogPlayLevel: [PlayLevel]   Compiling GrenadeLauncher as a dependent...
+[2017.11.02-14.12.36:808][908]LogPlayLevel: [PlayLevel]   Compiling MyCharacter as a dependent...
+[2017.11.02-14.12.36:828][908]LogPlayLevel: [PlayLevel]   Compiling MyPlayerController as a dependent...
+[2017.11.02-14.12.37:626][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/MyPlayerController" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.11.02-14.12.37:871][908]LogSavePackage: Save=206.56ms
+[2017.11.02-14.12.37:871][908]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerController307FC805473405A7746BB6B9D7AAD818.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset'
+[2017.11.02-14.12.37:876][908]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset
+[2017.11.02-14.12.37:916][908]LogPlayLevel: PlayLevel: Blueprint regeneration took 1206 ms (7 blueprints)
+[2017.11.02-14.12.37:916][908]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 14:12:37)
+[2017.11.02-14.12.37:916][908]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-14.12.37:941][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024520s)
+[2017.11.02-14.12.37:942][908]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-14.12.37:942][908]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2017.11.02-14.12.37:942][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026002s)
+[2017.11.02-14.12.37:972][908]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-14.12.37:984][908]LogInit: FAudioDevice initialized.
+[2017.11.02-14.12.38:030][908]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-14.12.38:033][908]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.12.38:035][908]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-14.12.38
+[2017.11.02-14.12.38:036][908]LogWorld: Bringing up level for play took: 0.004722
+[2017.11.02-14.12.38:042][908]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.849
+[2017.11.02-14.12.38:043][908]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.12.42:926][140]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.12.53:131][642]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.12.53:320][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.12.53:389][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.13.15:200][361]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-14.13.15:224][361]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.13.15:224][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-14.13.15:224][361]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 14:13:15)
+[2017.11.02-14.13.15:224][361]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-14.13.15:249][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024467s)
+[2017.11.02-14.13.15:250][361]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-14.13.15:250][361]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2017.11.02-14.13.15:250][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025647s)
+[2017.11.02-14.13.15:287][361]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-14.13.15:297][361]LogInit: FAudioDevice initialized.
+[2017.11.02-14.13.15:353][361]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-14.13.15:356][361]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.13.15:357][361]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-14.13.15
+[2017.11.02-14.13.15:358][361]LogWorld: Bringing up level for play took: 0.004070
+[2017.11.02-14.13.15:368][361]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.825
+[2017.11.02-14.13.15:369][361]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.13.22:507][ 10]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.13.24:532][221]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-14.13.24:869][255]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-14.13.25:023][270]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-14.13.25:210][289]LogBlueprintUserMessages: [GrenadeLauncher_147] playerWeponfired
+[2017.11.02-14.13.32:807][ 97]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.13.47:795][781]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-14.13.48:257][833]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-14.13.51:851][230]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.13.52:914][348]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.13.54:842][562]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.13.54:897][562]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.16.26:858][851]BlueprintLog: New page: Compile WeaponsInterface
+[2017.11.02-14.16.26:988][851]LogSavePackage: Save=10.03ms
+[2017.11.02-14.16.26:988][851]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/WeaponsInterfaceB1D29C644A1B3A3E360870B3E1B8CFFD.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Interfaces/WeaponsInterface.uasset'
+[2017.11.02-14.16.26:990][851]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Interfaces/WeaponsInterface.uasset
+[2017.11.02-14.20.10:586][823]LogSavePackage: Save=139.14ms
+[2017.11.02-14.20.10:586][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/ThirdPersonExampleMap_Auto6EFC65F40420DFC1DA3A8D7A358C5E177.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2017.11.02-14.20.10:589][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2017.11.02-14.20.10:591][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.256
+[2017.11.02-14.20.10:591][823]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.256
+[2017.11.02-14.20.10:594][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/PlayerWeapons/AssaultRifle] ([1] browsable assets)...
+[2017.11.02-14.20.10:594][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/PlayerWeapons/AssaultRifle]
+[2017.11.02-14.20.10:669][823]LogSavePackage: Save=37.61ms
+[2017.11.02-14.20.10:669][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/AssaultRifle_Auto6BD0904F046687FEE6A56C49E479D43FC.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/PlayerWeapons/AssaultRifle_Auto6.uasset'
+[2017.11.02-14.20.10:671][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/PlayerWeapons/AssaultRifle_Auto6.uasset
+[2017.11.02-14.20.10:672][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/PlayerWeapons/BasePlayerWeapon] ([1] browsable assets)...
+[2017.11.02-14.20.10:672][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/PlayerWeapons/BasePlayerWeapon]
+[2017.11.02-14.20.10:775][823]LogSavePackage: Save=82.63ms
+[2017.11.02-14.20.10:775][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/BasePlayerWeapon_Auto6D9E660AD4EB0DFDA03DE9D8F09CA55BB.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/PlayerWeapons/BasePlayerWeapon_Auto6.uasset'
+[2017.11.02-14.20.10:777][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/PlayerWeapons/BasePlayerWeapon_Auto6.uasset
+[2017.11.02-14.20.10:778][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/BaseWeapon] ([1] browsable assets)...
+[2017.11.02-14.20.10:778][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/BaseWeapon]
+[2017.11.02-14.20.10:831][823]LogSavePackage: Save=34.64ms
+[2017.11.02-14.20.10:831][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/BaseWeapon_Auto6E28FA9FD4A8464026E577B922DD7C83E.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/BaseWeapon_Auto6.uasset'
+[2017.11.02-14.20.10:833][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/BaseWeapon_Auto6.uasset
+[2017.11.02-14.20.10:833][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/MyPlayerController] ([1] browsable assets)...
+[2017.11.02-14.20.10:833][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/MyPlayerController]
+[2017.11.02-14.20.11:003][823]LogSavePackage: Save=150.70ms
+[2017.11.02-14.20.11:003][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerController_Auto6CEB6F35F43A4229397239AB1D24900C6.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyPlayerController_Auto6.uasset'
+[2017.11.02-14.20.11:006][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyPlayerController_Auto6.uasset
+[2017.11.02-14.20.11:006][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Student/Blueprints/MyCharacter] ([1] browsable assets)...
+[2017.11.02-14.20.11:039][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Student/Blueprints/MyCharacter.MyCharacter]
+[2017.11.02-14.20.11:039][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/MyCharacter]
+[2017.11.02-14.20.11:184][823]LogSavePackage: Save=104.84ms
+[2017.11.02-14.20.11:184][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyCharacter_Auto66BB1F6374B5DEB8EC5D74CB92C5B2946.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyCharacter_Auto6.uasset'
+[2017.11.02-14.20.11:186][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/MyCharacter_Auto6.uasset
+[2017.11.02-14.20.11:189][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Student/Blueprints/PlayerWeapons/GrenadeLauncher] ([1] browsable assets)...
+[2017.11.02-14.20.11:189][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/PlayerWeapons/GrenadeLauncher]
+[2017.11.02-14.20.11:289][823]LogSavePackage: Save=60.39ms
+[2017.11.02-14.20.11:289][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/GrenadeLauncher_Auto63F782F0F4CCD6D78A0FF8B918CAD9AE0.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/PlayerWeapons/GrenadeLauncher_Auto6.uasset'
+[2017.11.02-14.20.11:290][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/PlayerWeapons/GrenadeLauncher_Auto6.uasset
+[2017.11.02-14.20.11:291][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Student/Blueprints/Turrets/BaseTurret] ([1] browsable assets)...
+[2017.11.02-14.20.11:318][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Student/Blueprints/Turrets/BaseTurret.BaseTurret]
+[2017.11.02-14.20.11:318][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/Turrets/BaseTurret]
+[2017.11.02-14.20.11:502][823]LogSavePackage: Save=145.10ms
+[2017.11.02-14.20.11:502][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/BaseTurret_Auto6B96495264F9CE73FC978F48DCB9036D5.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/BaseTurret_Auto6.uasset'
+[2017.11.02-14.20.11:504][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/BaseTurret_Auto6.uasset
+[2017.11.02-14.20.11:505][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Student/Blueprints/Turrets/Turret_MiniGun] ([1] browsable assets)...
+[2017.11.02-14.20.11:546][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Student/Blueprints/Turrets/Turret_MiniGun.Turret_MiniGun]
+[2017.11.02-14.20.11:546][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/Turrets/Turret_MiniGun]
+[2017.11.02-14.20.11:626][823]LogSavePackage: Save=53.14ms
+[2017.11.02-14.20.11:626][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_MiniGun_Auto6635643BD460F4968E51298BD3111D0F0.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/Turret_MiniGun_Auto6.uasset'
+[2017.11.02-14.20.11:628][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/Turret_MiniGun_Auto6.uasset
+[2017.11.02-14.20.11:629][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Student/Blueprints/Turrets/Turret_RocketLauncher] ([1] browsable assets)...
+[2017.11.02-14.20.11:661][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Student/Blueprints/Turrets/Turret_RocketLauncher.Turret_RocketLauncher]
+[2017.11.02-14.20.11:661][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/Turrets/Turret_RocketLauncher]
+[2017.11.02-14.20.11:739][823]LogSavePackage: Save=37.45ms
+[2017.11.02-14.20.11:739][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_RocketLauncher_Auto6B31369D54073F4F729CD4FA0440C6283.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/Turret_RocketLauncher_Auto6.uasset'
+[2017.11.02-14.20.11:741][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/Turret_RocketLauncher_Auto6.uasset
+[2017.11.02-14.20.11:743][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Student/Blueprints/Turrets/Turret_RailGun] ([1] browsable assets)...
+[2017.11.02-14.20.11:769][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Student/Blueprints/Turrets/Turret_RailGun.Turret_RailGun]
+[2017.11.02-14.20.11:769][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Student/Blueprints/Turrets/Turret_RailGun]
+[2017.11.02-14.20.11:823][823]LogSavePackage: Save=33.84ms
+[2017.11.02-14.20.11:823][823]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_RailGun_Auto67F9633A7437ACBE1397163B4505FEC54.tmp' to '../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/Turret_RailGun_Auto6.uasset'
+[2017.11.02-14.20.11:825][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Saved/Autosaves/Game/Student/Blueprints/Turrets/Turret_RailGun_Auto6.uasset
+[2017.11.02-14.20.11:825][823]LogFileHelpers: Auto-saving content packages took 1.232
+[2017.11.02-14.21.41:444][ 38]LogEditorViewport: Clicking on Actor (LMB): BaseEnemy_C (BaseEnemy6)
+[2017.11.02-14.21.42:392][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.02-14.21.44:236][307]LogEditorViewport: Clicking on Actor (LMB): BaseEnemy_C (BaseEnemy6)
+[2017.11.02-14.21.49:569][920]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-14.21.49:590][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.21.49:590][920]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.02-14.21.49:622][920]LogPlayLevel: [PlayLevel] Compiling BaseWeapon before play...
+[2017.11.02-14.21.49:633][920]LogPlayLevel: [PlayLevel]   Compiling BasePlayerWeapon as a dependent...
+[2017.11.02-14.21.49:657][920]LogPlayLevel: [PlayLevel]   Compiling BaseTurret as a dependent...
+[2017.11.02-14.21.49:678][920]LogPlayLevel: [PlayLevel]   Compiling Ammo as a dependent...
+[2017.11.02-14.21.49:683][920]LogPlayLevel: [PlayLevel]   Compiling AssaultRifle as a dependent...
+[2017.11.02-14.21.49:686][920]LogPlayLevel: [PlayLevel]   Compiling GrenadeLauncher as a dependent...
+[2017.11.02-14.21.49:698][920]LogPlayLevel: [PlayLevel]   Compiling MyPlayerController as a dependent...
+[2017.11.02-14.21.49:725][920]LogPlayLevel: [PlayLevel]   Compiling Turret_MiniGun as a dependent...
+[2017.11.02-14.21.49:730][920]LogPlayLevel: [PlayLevel]   Compiling Turret_RailGun as a dependent...
+[2017.11.02-14.21.49:731][920]LogPlayLevel: [PlayLevel]   Compiling Turret_RocketLauncher as a dependent...
+[2017.11.02-14.21.50:002][920]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.264 s
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: === Handled ensure: ===
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: 
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: Ensure condition failed: !ExistingGraph [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\BlueprintEditorUtils.cpp] [Line: 2295]
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: Graph FireWeapon already exists: EdGraph /Game/Student/Blueprints/BaseWeapon.BaseWeapon:FireWeapon
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: Stack: 
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EC23E36
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002E9AC2D2
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002E9C4746
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A06BFD7
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A069847
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A0688C6
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-KismetCompiler.dll!0x000000001FD0AF1A
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x0000000026C3894C
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x0000000026BD8526
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A0D07FE
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A249D16
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A234DE2
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A251394
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000029CBBDF8
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A54D646
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor.exe!0x000000008E16534A
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor.exe!0x000000008E173970
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor.exe!0x000000008E1739EA
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor.exe!0x000000008E1802D9
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: UE4Editor.exe!0x000000008E181C47
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: KERNEL32.DLL!0x00000000685F2774
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: ntdll.dll!0x00000000691B0D51
+[2017.11.02-14.21.50:002][920]LogOutputDevice: Error: 
+[2017.11.02-14.21.50:004][920]LogStats:                SubmitErrorReport -  0.000 s
+[2017.11.02-14.22.00:446][920]LogStats:                    SendNewReport - 10.443 s
+[2017.11.02-14.22.00:447][920]LogStats:             FDebug::EnsureFailed - 10.708 s
+[2017.11.02-14.22.02:364][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/BaseWeapon" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/BaseWeapon.uasset" SILENT=true
+[2017.11.02-14.22.02:406][920]LogSavePackage: Save=20.31ms
+[2017.11.02-14.22.02:406][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/BaseWeapon09C055BD479FC90B09F3C6926B8547F6.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/BaseWeapon.uasset'
+[2017.11.02-14.22.02:409][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/BaseWeapon.uasset
+[2017.11.02-14.22.02:514][920]LogSavePackage: Save=81.81ms
+[2017.11.02-14.22.02:514][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/BasePlayerWeapon60416DE14EAF415098493487FA6A1D54.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/PlayerWeapons/BasePlayerWeapon.uasset'
+[2017.11.02-14.22.02:517][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/PlayerWeapons/BasePlayerWeapon.uasset
+[2017.11.02-14.22.02:521][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/Turrets/BaseTurret" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/BaseTurret.uasset" SILENT=true
+[2017.11.02-14.22.02:651][920]LogSavePackage: Save=106.76ms
+[2017.11.02-14.22.02:651][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/BaseTurret51232571464DFBDF6D2DA58CAC2A1E73.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/BaseTurret.uasset'
+[2017.11.02-14.22.02:653][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/BaseTurret.uasset
+[2017.11.02-14.22.02:713][920]LogSavePackage: Save=31.99ms
+[2017.11.02-14.22.02:713][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/AssaultRifle77AE699D4275BF295A007EB9BF5F61A9.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/PlayerWeapons/AssaultRifle.uasset'
+[2017.11.02-14.22.02:716][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/PlayerWeapons/AssaultRifle.uasset
+[2017.11.02-14.22.02:782][920]LogSavePackage: Save=35.52ms
+[2017.11.02-14.22.02:782][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/GrenadeLauncher6ABE302F44D55DE50F1F03B6355F2141.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/PlayerWeapons/GrenadeLauncher.uasset'
+[2017.11.02-14.22.02:785][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/PlayerWeapons/GrenadeLauncher.uasset
+[2017.11.02-14.22.02:788][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/MyPlayerController" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.11.02-14.22.02:970][920]LogSavePackage: Save=157.57ms
+[2017.11.02-14.22.02:970][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyPlayerControllerE718267147186957E9A54FAB490746B2.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset'
+[2017.11.02-14.22.02:973][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyPlayerController.uasset
+[2017.11.02-14.22.03:102][920]LogSavePackage: Save=62.09ms
+[2017.11.02-14.22.03:102][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_MiniGunBD001D094DCF2C42F35BCD92ADAD5301.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_MiniGun.uasset'
+[2017.11.02-14.22.03:105][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_MiniGun.uasset
+[2017.11.02-14.22.03:148][920]LogSavePackage: Save=13.83ms
+[2017.11.02-14.22.03:148][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_RailGunDF88CC0748971FF39A6BB08CBE73FE38.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_RailGun.uasset'
+[2017.11.02-14.22.03:151][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_RailGun.uasset
+[2017.11.02-14.22.03:202][920]LogSavePackage: Save=26.52ms
+[2017.11.02-14.22.03:202][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/Turret_RocketLauncherB8E95E904C410B4CF1B69ABE0316938C.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_RocketLauncher.uasset'
+[2017.11.02-14.22.03:205][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Turrets/Turret_RocketLauncher.uasset
+[2017.11.02-14.22.03:224][920]LogPlayLevel: [PlayLevel] Compiling PlayerAnimationBlueprint before play...
+[2017.11.02-14.22.03:268][920]LogPlayLevel: [PlayLevel]   Compiling ExplodingProjectile as a dependent...
+[2017.11.02-14.22.03:290][920]LogPlayLevel: [PlayLevel]   Compiling Ammo as a dependent...
+[2017.11.02-14.22.03:294][920]LogPlayLevel: [PlayLevel]   Compiling AssaultRifle as a dependent...
+[2017.11.02-14.22.03:298][920]LogPlayLevel: [PlayLevel]   Compiling GrenadeLauncher as a dependent...
+[2017.11.02-14.22.03:303][920]LogPlayLevel: [PlayLevel]   Compiling HealthBar as a dependent...
+[2017.11.02-14.22.03:319][920]LogPlayLevel: [PlayLevel]   Compiling MyCharacter as a dependent...
+[2017.11.02-14.22.03:334][920]LogPlayLevel: [PlayLevel]   Compiling MyGameMode as a dependent...
+[2017.11.02-14.22.03:346][920]LogPlayLevel: [PlayLevel]   Compiling MyPlayerController as a dependent...
+[2017.11.02-14.22.04:159][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/MyCharacter" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyCharacter.uasset" SILENT=true
+[2017.11.02-14.22.04:324][920]LogSavePackage: Save=136.21ms
+[2017.11.02-14.22.04:324][920]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/MyCharacter837146714A1E162112B485A09E25E8F5.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyCharacter.uasset'
+[2017.11.02-14.22.04:327][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/MyCharacter.uasset
+[2017.11.02-14.22.04:369][920]LogPlayLevel: PlayLevel: Blueprint regeneration took 14778 ms (19 blueprints)
+[2017.11.02-14.22.04:369][920]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 14:22:04)
+[2017.11.02-14.22.04:369][920]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-14.22.04:391][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021988s)
+[2017.11.02-14.22.04:393][920]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-14.22.04:393][920]LogPlayLevel: PIE: World Init took: (0.001289s)
+[2017.11.02-14.22.04:393][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023683s)
+[2017.11.02-14.22.04:422][920]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-14.22.04:432][920]LogInit: FAudioDevice initialized.
+[2017.11.02-14.22.04:493][920]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-14.22.04:496][920]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_92.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.22.04:499][920]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-14.22.04
+[2017.11.02-14.22.04:501][920]LogWorld: Bringing up level for play took: 0.006763
+[2017.11.02-14.22.04:514][920]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 14.321
+[2017.11.02-14.22.04:514][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.22.09:434][481]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_0.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.22.21:838][949]PIE: Warning: Invalid Simulate Options: Body (HealthPickup_C_1.StaticMesh Health_Pickup) is set to simulate physics but Collision Enabled is incompatible
+[2017.11.02-14.22.38:148][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.22.38:210][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.23.16:662][111]BlueprintLog: New page: Compile HealthPickup
+[2017.11.02-14.23.17:853][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Student/Blueprints/Pickups/HealthPickup" FILE="../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Pickups/HealthPickup.uasset" SILENT=true
+[2017.11.02-14.23.17:921][111]LogSavePackage: Save=39.87ms
+[2017.11.02-14.23.17:921][111]LogSavePackage: Moving '../../../../../../Student Temporary Folder/J005627b/Saved/HealthPickupCF9863CD4A25FA1D0C72298E6E5D3AFE.tmp' to '../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Pickups/HealthPickup.uasset'
+[2017.11.02-14.23.17:925][111]LogSavePackage: Display: Finished SavePackage ../../../../../../Student Temporary Folder/J005627b/Content/Student/Blueprints/Pickups/HealthPickup.uasset
+[2017.11.02-14.23.19:116][229]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.02-14.23.19:147][229]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.23.19:147][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-14.23.19:147][229]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 14:23:19)
+[2017.11.02-14.23.19:147][229]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-14.23.19:171][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023139s)
+[2017.11.02-14.23.19:172][229]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-14.23.19:172][229]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2017.11.02-14.23.19:172][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024410s)
+[2017.11.02-14.23.19:210][229]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-14.23.19:220][229]LogInit: FAudioDevice initialized.
+[2017.11.02-14.23.19:279][229]LogLoad: Game class is 'MyGameMode_C'
+[2017.11.02-14.23.19:286][229]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-14.23.19
+[2017.11.02-14.23.19:288][229]LogWorld: Bringing up level for play took: 0.007731
+[2017.11.02-14.23.19:298][229]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.105
+[2017.11.02-14.23.19:299][229]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.23.41:450][757]LogBlueprintUserMessages: [AssaultRifle_1217] PlayerWeapon no ammo
+[2017.11.02-14.23.44:993][181]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.45:160][201]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.45:378][227]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.45:520][244]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.45:671][262]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.45:806][278]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.46:090][312]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.47:083][431]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.47:393][468]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.47:569][489]LogBlueprintUserMessages: [AssaultRifle_1217] playerWeponfired
+[2017.11.02-14.23.48:728][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.23.48:799][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-14.24.29:620][600]LogUObjectArray: Warning: Other object in slot
+[2017.11.02-14.24.29:621][600]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: === Handled ensure: ===
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: 
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: Stack: 
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EC23E36
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002E9AC2D2
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002E9C4746
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000002A0ED3E6
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000002917FB2B
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000207A259A
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000002063737C
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000002063A8E9
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x0000000020766C25
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002D714A47
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002D71AC21
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002D9503A3
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002D771E65
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002D74A28C
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000002D73B444
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EBFB5AC
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EBE3EE1
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EBFD5BB
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EBDF042
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: USER32.dll!0x0000000068CBBC50
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: USER32.dll!0x0000000068CBB5CF
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000002EBFDCC6
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor.exe!0x000000008E164BE2
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor.exe!0x000000008E173970
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor.exe!0x000000008E1739EA
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor.exe!0x000000008E1802D9
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: UE4Editor.exe!0x000000008E181C47
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: KERNEL32.DLL!0x00000000685F2774
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: ntdll.dll!0x00000000691B0D51
+[2017.11.02-14.24.29:621][600]LogOutputDevice: Error: 
+[2017.11.02-14.24.29:629][600]LogStats:                SubmitErrorReport -  0.000 s
